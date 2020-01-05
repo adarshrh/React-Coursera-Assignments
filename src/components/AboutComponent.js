@@ -16,7 +16,7 @@ function RenderLeader({leader}) {
             <div key={leader.id} className="col-12 mt-5">
                 <Media tag="li" >
                     <Media left middle>
-                        <Media object src={leader.image} alt={leader.name} >
+                        <Media className="d-flex mr-3 img-thumbnail align-self-top" object src={leader.image} alt={leader.name} >
                         </Media>
                     </Media>
                     <Media body className="ml-5">
