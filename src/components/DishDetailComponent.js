@@ -1,7 +1,8 @@
 import React, { Component } from 'react';
+import { Control, LocalForm, Errors } from 'react-redux-form';
 import { Card, CardImg, CardBody, CardText, CardTitle, Breadcrumb, BreadcrumbItem, Button, Modal, ModalHeader, ModalBody, Row, Col, Label } from 'reactstrap';
 import { Link } from 'react-router-dom';
-import { Control, LocalForm, Errors } from 'react-redux-form';
+
 
 
    function RenderComments({comments, postComment, dishId}) {
